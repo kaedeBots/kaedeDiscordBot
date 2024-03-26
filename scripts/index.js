@@ -38,10 +38,10 @@ server.events.on('playerChat', async ev => {
       message.reply('くっそおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお\nThis message reached the length limit, and was not fully generated.')
       return
     }
-    if (message.content === ".pig") { // またもやネタ機能
+    if (message.content === "/pig") { // またもやネタ機能
       message.reply('***もしかして:*** `/ping`')
     }
-    if (message.content === ".mainki") {
+    if (message.content === "/mainki") {
       message.reply('***もしかして:*** `/mainnki`')
     }
   }
