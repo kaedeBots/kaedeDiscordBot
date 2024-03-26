@@ -25,25 +25,6 @@ server.events.on('playerChat', async ev => {
         `§7-§f Discord: ${client.ws.ping}ms`
       ].join('\n'));
     }
-
-    if (message.content === "/mee6sine") { // ここらへんはネタ機能
-      message.reply('ふざけてんじゃねえぞボケナスが\n覚えてろよぶち殺してやるからな:thinking:')
-      return
-    }
-    if (message.content === "/mainnki") {
-      message.reply('ためろっっっwww')
-      return
-    }
-    if (message.content === "/gpt") {
-      message.reply('くっそおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお\nThis message reached the length limit, and was not fully generated.')
-      return
-    }
-    if (message.content === "/pig") { // またもやネタ機能
-      message.reply('***もしかして:*** `/ping`')
-    }
-    if (message.content === "/mainki") {
-      message.reply('***もしかして:*** `/mainnki`')
-    }
   }
 })
 
